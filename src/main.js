@@ -1,12 +1,16 @@
 import './styles/global.css';
+import cards from "./components/BiSectionCards/cards.js";
 
 const main = () => {
     return `
-        <div>
-            <h1>Hello World!</h1>
+        <div id="content">
+            <!--COMPONENT LOAD-->
         </div>
 `
 }
-document.querySelector('body').innerHTML = main();
+document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('app').innerHTML += main()
+    document.getElementById('content').innerHTML += cards()
+})
 
 export default main;
