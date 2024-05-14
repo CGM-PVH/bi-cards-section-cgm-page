@@ -29,7 +29,7 @@ const cardsData = {
             url2: painelObrasInativo,
             alt2: 'Painel obras - banner - inativo '
         },
-        linkURL: '#'
+        linkURL: 'https://bi-obras-cgm-pvh.vercel.app/'
     },
     "painelEPonto": {
         isActive: false,

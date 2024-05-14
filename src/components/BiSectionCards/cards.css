@@ -11,10 +11,10 @@
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .cardItem {
+    min-width: 300px;
     margin: 10px;
     border-radius: 10px;  /* change it to your liking */
     overflow: hidden;  /* Ensures the image will be rounded */
